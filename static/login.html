@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<form action="/admin/login" method="post" novalidate autocapitalize="off">
+    <div>
+        <label for="username">adminname:</label>
+        <input type="text" name="adminname" id="username">
+    </div>
+
+    <div>
+        <label for="password">adminpassword:</label>
+        <input type="password" name="adminpassword" id="password">
+    </div>
+
+    <div>
+        <input type="submit" value="登录">
+    </div>
+</form>
+<form action="/admin/create" method="post" novalidate autocapitalize="off">
+    <div>
+        <label for="username13">adminname:</label>
+        <input type="text" name="adminname" id="username13">
+    </div>
+    <div>
+        <label for="password13">adminpassword:</label>
+        <input type="password" name="adminpassword" id="password13">
+    </div>
+    <div>
+        <input type="submit" value="注册">
+    </div>
+</form>
+<form action="/student/addStudent" method="post" novalidate autocapitalize="off">
+    <div>
+        <label for="username10">studentname:</label>
+        <input type="text" name="studentname" id="username10">
+    </div>
+
+    <div>
+        <label for="password10">studentpassword:</label>
+        <input type="password" name="studentpassword" id="password10">
+    </div>
+    <div>
+        <label for="sex10">sex:</label>
+        <input type="sex" name="studentsex" id="sex10">
+    </div>
+    <div>
+        <input type="submit" value="注册">
+    </div>
+
+</form>
+
+<form action="/student/studentLogin" method="post" novalidate autocapitalize="off">
+    <div>
+        <label for="username11">studentname:</label>
+        <input type="text" name="studentname" id="username11">
+    </div>
+    <div>
+        <label for="password10">studentpassword:</label>
+        <input type="password" name="studentpassword" id="password11">
+    </div>
+    <div>
+        <input type="submit" value="登录" >
+    </div>
+</form>
+
+</body>
+</html>
